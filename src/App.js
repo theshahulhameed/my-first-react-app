@@ -1,17 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <h1>Shahul Hameed</h1>
-      <p>Shahul is a good boy.</p>
-      <ul>
-        <li>France</li>
-        <li>Belgium</li>
-        <li>Germany</li>
-      </ul>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
